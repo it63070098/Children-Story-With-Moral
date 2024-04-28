@@ -13,8 +13,6 @@ CORS(app)  # Enable CORS for all routes
 def home():
     return jsonify({"message": "Welcome to the Flask backend!"})
 
-# openai.api_key = "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"
-
 def get_completion(messages, model="ft:gpt-3.5-turbo-0613:personal:cs-3:95DLQ5pu", temperature=0.7):
 
     completion = client.chat.completions.create(
