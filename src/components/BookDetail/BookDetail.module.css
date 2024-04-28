@@ -1,0 +1,53 @@
+.bookDetails {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+.btn{
+  border-radius: 20px;
+}
+  .leftSide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .rightSide {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .bookImage {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+  }
+  .rightSide h3{
+    color: rgb(150, 150, 150);
+  }
+  hr{
+    color: #82D7D2;
+  }
+  .card{
+    color: #82D7D2;
+    border-color: #82D7D2;
+  }
+  .modal{
+    z-index: 9999;
+  }
+  .imgModal{
+    max-width: 40%;
+    height: auto;
+
+  }
+  .bookModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  

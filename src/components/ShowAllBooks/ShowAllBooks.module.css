@@ -1,0 +1,139 @@
+.filter{
+  margin-top: 7%;
+  /* background-color: aqua; */
+  border: solid 1px rgba(130, 215, 210, 1);
+  border-radius: 10px;
+  height: 50%;
+  width: auto;
+  padding: 25px;
+  
+}
+.filter p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.filter h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+.featuresWrapper {
+  flex-direction: column;
+}
+.tabs {
+  margin: 25px 0 2px 0;
+  width: 1100px;
+  border-bottom: solid 1px #d7d7d7;
+}
+.nav-link a{
+  color: #ECC9EE;
+}
+.featuresHeading {
+  font-size: 1rem;
+}
+
+
+.featuresListWrapper {
+  width: 1100px;
+  overflow: auto;
+  margin-top: 3%;
+  flex-direction: column;
+  display: flex;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.featuresList {
+  display: flex;
+  width: 1100px;
+  height: auto;
+  /* margin: 0 10px; */
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.featureDiv {
+  flex-direction: column;
+  justify-content: space-between;
+  background: #D7F2F0;
+  width: 250px;
+  height: 100%;
+  border-radius: 0.5rem;
+  color: #5821B1;
+}
+
+.featureDiv2 {
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background: #FBBBB9;
+  width: 250px;
+  height: 100%;
+  border-radius: 0.5rem;
+  color: #540191;
+
+}
+.featureDiv3 {
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ECC9EE;
+  width: 250px;
+  height: 100%;
+  border-radius: 0.5rem;
+  color: #540191;
+
+}
+.featureDiv4 {
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FEBE8C;
+  width: 250px;
+  height: 100%;
+  border-radius: 0.5rem;
+  color: #540191;
+
+}
+
+.feature {
+  /* font-size: 1.3rem; */
+  padding: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.featureDescription {
+  padding: 0 50px 25px 40px;
+}
+
+.featureImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.card-footer{
+  background-color: aqua;
+}
+
+@media (max-width: 1100px) {
+  .featuresListWrapper {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 900px) {
+  .featuresHeading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .featureDiv:nth-of-type(2) {
+    margin: 0 10px;
+  }
+
+  .featureDiv {
+    width: 300px;
+  }
+}

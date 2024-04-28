@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+  font-family: 'Mali', sans-serif;
+}
+body {
+  /* background: #1C8EF9 !important; */
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Mali', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,label,span {
+  font-weight: 500;
+  font-family: 'Mali', sans-serif;
+}
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.App {
+    text-align: center;
+    background-color: #D7F2F0;
+    font-family: 'Mali';
+  }
+  .navbar {
+    background-color: #82D7D2;
+  }
+  .nav-img{
+    width: 35%;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .auth-wrapper{
+    font-family: 'Mali';
+  }
+  img{
+    /* width:35%; */
+    height: auto;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

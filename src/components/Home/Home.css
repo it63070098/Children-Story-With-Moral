@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Mali", sans-serif;
+    color: #353839;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .center {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  /* App.js */
+  .Home {
+    position: relative;
+}
+  
+  .fab {
+    margin: 10px;
+    color: #231f20;
+  }
+  
